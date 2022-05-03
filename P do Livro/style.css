@@ -1,0 +1,40 @@
+header{
+	background: linear-gradient(to right, #8ce4ff, #c7f2ff);
+	padding: 0 2%;
+}
+.caixa{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1036px;
+	margin: 0 auto;
+}
+.imgnav {
+	text-align: left;
+    position: relative;
+    width: 10%;
+    display: inline-block;
+	padding: 1%;
+}
+nav{
+	position: relative;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	font-family: 'Acme', sans-serif;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+/*.form-nav{
+	border-radius: 5px;
+	width: 23%;
+	margin: 0 0 0 3.2%;
+	padding: .5%
+}*/
