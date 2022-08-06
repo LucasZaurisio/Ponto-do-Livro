@@ -139,7 +139,7 @@ main {
 .bookcase {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1.2fr 1fr;
+  grid-template-rows: 1.1fr 1fr;
   background: url('book-shelf-wide.png');
   min-width: 772px;
   min-height: 571px;
@@ -150,18 +150,17 @@ main {
   border-radius: 22px;
 }
 .books {
-  width: 50%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 .bookcase :nth-child(4) {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 .bookcase :nth-child(5) {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 .bookcase :nth-child(6) {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 /*FIM ESTANTE - INICIO MAPA*/
 .mapa-conteudo {
